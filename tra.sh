@@ -1,6 +1,6 @@
 #!/bin/bash
 
-command="./mineral-linux mine"
+command="./titan-edge daemon start --init --url https://hk-locator.titannet.io:5000/rpc/v0"
 
 while true; do
   $command 2>&1 |
